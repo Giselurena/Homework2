@@ -1,0 +1,46 @@
+<%- include('embeded/bootheader') -%>
+<%- include('embeded/menubar') -%>
+
+<div class="third-container">
+
+  <div class="row">
+    <div class="col-md-4">
+
+      <div class="">
+        <img class="profile-pic" src="https://i.pinimg.com/236x/e0/5e/06/e05e061bfc4c6e7799de4aac293a8223.jpg" width="300">
+      </div>
+      <br>
+      <h4><%= firstname %> <%= lastname %></h4>
+      <h4><%= age %> y.o.</h4>
+
+    </div>
+    <div class="col-md-8">
+      <h4>Information</h4>
+      <br>
+      <br>
+      <h5>Birthday: <%= birthday %></h5>
+      <br>
+      <h5>Email: <%= email %></h5>
+      <br>
+      <h5>Mobile #: <%= mobile %></h5>
+      <br>
+      <h5>Grade: <%= grade %></h5>
+      <br>
+      <h5>Location: <%= city %>, <%= state %>, <%= country %></h5>
+    </div>
+  </div>
+
+  <div class="row">
+    <br>
+    <div class="col-md-12">
+      <p><%= reason %></p>
+
+      <br>
+
+      <p><%= goal %></p>
+    </div>
+  </div>
+
+</div>
+
+<%- include('embeded/bootfooter') -%>

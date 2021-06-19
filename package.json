@@ -1,0 +1,24 @@
+{
+  "name": "homework2",
+  "version": "1.0.0",
+  "description": "Homework assignment 2.",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "Gisel Urena",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.5",
+    "debug": "^4.3.1",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "http-errors": "^1.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}

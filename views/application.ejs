@@ -1,0 +1,60 @@
+<%- include('embeded/bootheader') -%>
+<%- include('embeded/menubar') -%>
+
+  <div class="half-container">
+      <h1>SoulSisters Application</h1>
+      <p>There is a place for you here!</p>
+
+      <form method="post" action="/submitApplication">
+
+        Enter your name:
+        <input type="text" name="firstname" placeholder="First Name" class="form-control">
+        <input type="text" name="lastname" placeholder="Last Name" class="form-control">
+
+        <br>
+
+        Birthday:
+        <input type="date" name="birthday" placeholder="Birthday MM/DD/YYYY" class="form-control">
+
+        <br>
+
+        Contact Information:
+        <input type="text" name="email" placeholder="Email" class="form-control">
+        <input type="text" name="mobile" placeholder="Mobile #" class="form-control">
+
+        <br>
+
+        Select your current school grade:
+        <select name="grade" class="form-select">
+          <option value="9">Freshman</option>
+          <option value="10">Sophomore</option>
+          <option value="11">Junior</option>
+          <option value="12">Senior</option>
+          <option value="Graduated">Graduated</option>
+        </select>
+
+        <br>
+
+        Location:
+        <input type="text" name="country" placeholder="Country" class="form-control">
+        <input type="text" name="state" placeholder="State" class="form-control">
+        <input type="text" name="city" placeholder="City" class="form-control">
+
+        <br>
+
+        Why do you want to be a SoulSister?
+        <textarea name="reason" rows="10" cols="40" class="form-control"></textarea>
+
+        <br>
+
+        Where do you see yourself in 10 years?
+        <textarea name="goal" rows="10" cols="40" class="form-control"></textarea>
+
+        <br>
+
+        <input type="submit" value="Send Application" class="btn btn-success">
+      </form>
+
+  </div>
+
+<%- include('embeded/bootfooter') -%>

@@ -1,0 +1,18 @@
+.half-container {
+  margin: 0 auto;
+  width: 50%;
+  background-color: #FBFD3C;
+  padding: 25px;
+}
+
+.third-container {
+  margin: 0 auto;
+  width: 75%;
+  background-color: #FBFD3C;
+  padding: 25px;
+}
+
+.profile-pic {
+  width: 50%;
+  border-radius: 10px;
+}

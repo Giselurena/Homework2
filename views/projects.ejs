@@ -1,0 +1,21 @@
+<%- include('embeded/bootheader') -%>
+<%- include('embeded/menubar') -%>
+
+<div class="third-container">
+  <h4>Chicago Streets</h4>
+  <table class="table table-bordered table-striped">
+            <thead>
+                <tr><th>Street #</th><th>Street Name</th></tr>
+            </thead>
+            <tbody>
+        <% data.map( (p) => { %>
+            <tr>
+                <td><%= p['street_number'] %></td>
+                <td><%= p['street_name']  %></td>
+            </tr>
+        <% }) %>
+            </tbody>
+        </table>
+</div>
+
+<%- include('embeded/bootfooter') -%>
